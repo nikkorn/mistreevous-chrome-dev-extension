@@ -1,0 +1,20 @@
+{
+    "name": "Mistreevous Tree Overview",
+    "version": "0.1",
+    "description": "Overview for active Mistreevous behaviour tree instances",
+    "devtools_page": "devtools.html",
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+    "permissions": [
+        "tabs",
+        "activeTab",
+        "storage",
+        "http://*/*",
+        "https://*/*",
+        "<all_urls>"
+    ],
+    "manifest_version": 2
+}
