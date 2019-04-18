@@ -9,7 +9,7 @@ body {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #3d3c3c;
+    background-color: #2b2b2b;
     overflow-x: hidden;
 }
 
@@ -45,17 +45,17 @@ body {
 
 .instance-list-item-status p {
     display: inline;
-    margin-left: 0.2rem;
+    margin-left: 4px;
     font-size: 0.8em;
 }
 
 .instance-list-status-icon {
-    width: 1.2em;
-    height: 1.2em;
+    width: 16px;
+    height: 16px;
 }
 
 .instance-list-status-name {
-    line-height: 1.2rem;
+    line-height: 20px;
 }
 
 /* Style page content */
