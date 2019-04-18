@@ -13,7 +13,7 @@ var port = chrome.extension.connect({ name: "Sample Communication" });
 
 // Listen to messages from the background page
 port.onMessage.addListener(function (message) {
-  document.querySelector('#insertmessagebutton').innerHTML = message.content;
+  document.querySelector('#info').innerHTML += (message.content + "<br>");
 });
 
 // This sends an object to the background page 

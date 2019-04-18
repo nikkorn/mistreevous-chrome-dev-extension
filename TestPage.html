@@ -2,8 +2,19 @@
 <html>
 <body>
 
-<button id="some-page-button" type="button">On Tree Instances Change!</button>
+<button type="button" onclick="onTreeChange()">On Tree Instances Change!</button>
 
-<script></script>
+<script>
+
+function onTreeChange() {
+    window.dispatchEvent(new CustomEvent('mistreevous_tree_update', {
+        detail: {
+            name: "The best tree!",
+            size: "at least 14"
+        }
+    }));
+}
+
+</script>
 </body>
 </html>
