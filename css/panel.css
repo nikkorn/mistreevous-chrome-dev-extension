@@ -11,17 +11,32 @@ body {
     left: 0;
     background-color: #2b2b2b;
     overflow-x: hidden;
-}
-
-.instance-list-item {
-    padding: 6px 10px;
-}
-
-.instance-list-item {
-    text-decoration: none;
-    color: rgb(216, 216, 216);
-    display: block;
+    color: #c1c1c1;
     font-weight: bold;
+}
+
+.instance-list hr {
+    border: none;
+    height: 1px;
+    background-color: #c1c1c1;
+    margin: 0px;
+}
+
+.instance-list-header {
+    display: flex;
+    flex-direction: row;
+    font-weight: normal;
+    justify-content: space-around;
+}
+
+.instance-list-header p {
+    margin: 5px;
+}
+
+.instance-list-item {
+    display: flex;
+    flex-direction: column;
+    padding: 6px 10px;
     cursor: pointer;
 }
 
@@ -49,8 +64,15 @@ body {
     width: 16px;
     height: 16px;
     padding: 2px;
+    border-radius: 15px;
+}
+
+.instance-list-status-icon.ready {
+    background-color: rgb(78, 78, 78);
+}
+
+.instance-list-status-icon.action {
     background-color: rgb(42, 89, 218);
-    border-radius: 25px;
 }
 
 .instance-list-status-name {
