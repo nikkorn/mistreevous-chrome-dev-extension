@@ -1,0 +1,65 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.instance-list {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #3d3c3c;
+    overflow-x: hidden;
+}
+
+.instance-list-item {
+    padding: 6px 10px;
+}
+
+.instance-list-item {
+    text-decoration: none;
+    color: #DbD2E0;
+    display: block;
+}
+
+.instance-list-item {
+    text-decoration: none;
+    color: #DbD2E0;
+    display: block;
+}
+
+.instance-list-item-status {
+    display: inline-flex;
+    height: 1.2em;
+    align-items: center;
+    background-color: rgb(42, 89, 218);
+    border-radius: 25px;
+}
+
+.instance-list-item-status {
+    font-size: 1.2em;
+    padding: 0.2em 0.4em;
+    margin-top: 0.2em;
+}
+
+.instance-list-item-status p {
+    display: inline;
+    margin-left: 0.2rem;
+    font-size: 0.8em;
+}
+
+.instance-list-status-icon {
+    width: 1.2em;
+    height: 1.2em;
+}
+
+.instance-list-status-name {
+    line-height: 1.2rem;
+}
+
+/* Style page content */
+.tree-instance-details-area {
+    margin-left: 200px;
+    padding: 0px 10px;
+}

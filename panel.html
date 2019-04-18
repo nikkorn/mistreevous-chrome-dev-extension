@@ -2,21 +2,34 @@
 <html>
 	<head>
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-		<link rel="stylesheet" href="panel.css">
+		<link rel="stylesheet" href="css/panel.css">
 	</head>
 	<body>
 
-		<!-- Side navigation -->
-		<div class="sidenav">
-			<a href="#">
-				<i class="material-icons">file-find</i>
-				<span>Grid Peek</span>
-			</a>
+		<div class="instance-list">
+			<div class="instance-list-item">
+				<span>Enemy One</span>
+				<div class="instance-list-item-status">
+					<img class="instance-list-status-icon" src="resources/icons/action.png">
+					<div class="instance-list-status-name"><p>Making a sandwich</p></div>
+				</div>
+			</div>
 		</div>
 
-		<!-- Page content -->
-		<div class="main">
-			<div id="info"></div>
+		<div class="tree-instance-details-area">
+
+			<div class="tree-instance-details">
+				<div id="tree-instance-details-tabs">
+					<div id="tree-instance-details-tab active">Tree View</div>
+					<div id="tree-instance-details-tab">Definition</div>
+					<div id="tree-instance-details-tab">Log</div>
+				</div>
+
+				<div id="tree-instance-details-container active">Tree View</div>
+				<div id="tree-instance-details-container">Definition</div>
+				<div id="tree-instance-details-container">Log</div>
+			</div>
+			
 		</div>
 
 	</body>
